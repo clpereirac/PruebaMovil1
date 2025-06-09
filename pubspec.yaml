@@ -1,0 +1,47 @@
+name: no_me_olvido
+description: "App inteligente de recordatorios para fechas importantes"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  permission_handler: ^11.3.0
+  
+  # UI y Design
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.1.0
+  
+  # Base de datos local
+  sqflite: ^2.3.0
+  path: ^1.8.3
+  
+  # Gestión de estado
+  provider: ^6.1.1
+  
+  # Fecha y hora
+  intl: ^0.19.0
+  table_calendar: ^3.0.9
+  timezone: ^0.9.2
+  
+  # Almacenamiento local
+  shared_preferences: ^2.2.2
+  
+  # Notificaciones (versión estable que SÍ funciona)
+  flutter_local_notifications: ^17.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/icons/
